@@ -1,0 +1,18 @@
+<div class="head-info">
+  <a class="logo-link" href="index.html"><span class="logo-title">UA Film</span></a>
+  <div class="inputs">
+
+    <span class="p-float-label" style="margin-left: 5%">
+        <input [(ngModel)]="title" pInputText id="name" class="input-search"/>
+        <label htmlFor="name">Title</label>
+    </span>
+
+    <span class="p-float-label" style="margin-left: 5%">
+        <input   [(ngModel)]="year"  pInputText id="year" class="input-search" />
+        <label htmlFor="year">Year</label>
+    </span>
+
+    <p-button label="Search" (click)="search()"  styleClass="p-button-rounded p-button-warning" ></p-button>
+</div>
+</div>
+
